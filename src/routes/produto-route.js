@@ -1,4 +1,4 @@
-const ProdutoController = require('../controllers/produto-controller');
+const ProdutoController = require('../controllers/ProdutoController');
 module.exports = (app) => {
    app.post('/produtos', ProdutoController.post);
    app.put('/produtos/:id', ProdutoController.put);
